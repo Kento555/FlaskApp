@@ -1,11 +1,11 @@
 # Simple web application using Flask framework
 from flask import Flask
 
-app = Flask(__name__)
+Flaskapp = Flask(__name__)
 
-@app.route("/")
+@Flaskapp.route("/")
 def hello_world():
     return "<p>Hello, Weishen!</p>"
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=8080)
+   Flaskapp.run(host="0.0.0.0", port=8080)
